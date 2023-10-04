@@ -6,7 +6,8 @@
 
 :root {
   font-family: "Roboto";
-  --principal-color: #279989;
+  --principal-color: #04835fb2;
+  --secundario-color: #44a080;
 }
 
 a {
@@ -30,6 +31,16 @@ h1 {
   font-size: 1.5rem;
 }
 
+nav > ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+img {
+  width: 3rem;
+}
+
 .header-container {
   background-color: var(--principal-color);
   justify-content: space-between;
@@ -39,8 +50,11 @@ h1 {
   padding: 35px;
 }
 
-nav > ul {
+.subheader {
   display: flex;
-  justify-content: flex-end;
-  gap: 5px;
+  justify-content: space-between;
+  font-size: 2rem;
+  background-color: var(--secundario-color);
+  padding: 35px;
+  color: #fff;
 }
