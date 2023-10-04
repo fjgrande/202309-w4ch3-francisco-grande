@@ -1,0 +1,46 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Roboto";
+  --principal-color: #279989;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.header-container {
+  background-color: var(--principal-color);
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  display: flex;
+  padding: 35px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
